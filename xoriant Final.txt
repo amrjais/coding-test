@@ -1,0 +1,15 @@
+Employee implement Comparable
+Id
+Salary
+name
+
+compareTo(Employee e2){
+e.name.co
+}
+
+HashMap(integer,employee)
+
+
+cost of query
+
+Aspect orient programming

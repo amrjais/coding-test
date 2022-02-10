@@ -1,0 +1,28 @@
+class Base
+{
+public void getDetails()
+{
+System.out.println("Derived class");
+}
+}
+class Test extends Base
+{
+protected void getDetails()
+{
+System.out.println("Test class");
+}
+public static void main(String[] args)
+{
+Derived obj = new Test(); // line xyz
+obj.getDetails();
+}
+}
+
+String[] str1={"a","b"}
+String[] str2={"c","d"}
+
+ArrayList<String> list1= str1.toList();
+
+@Component
+@Qualifier
+

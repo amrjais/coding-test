@@ -1,0 +1,34 @@
+HashMap<Employee, List<Employee>>
+
+
+Empolyee implements Comparable{
+
+public int comparaTo(Employee e2){
+  return e1.getName().compareTo(e2.getName());
+}
+
+}
+
+
+
+
+String str="hello";
+
+Set<Character> set=new HashSet<>();
+
+for(int i=0; i<str.length();i++){
+
+if(!set.add(str.charAT(i))){
+System.out.println(str.charAT(i));
+
+}
+
+List<Employee> list=new ArrayList<>():
+list.add(emp1);
+list.add(emp2);
+list.add(emp3);
+list.add(emp4);
+
+list.stream().filter(emp -> list.stream().foreach(l ->l.getName().equals(emp.getName))).collect(Collectors.toList());
+
+list.stream().map( emp -> emp.getSalary())

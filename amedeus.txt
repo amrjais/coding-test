@@ -1,0 +1,40 @@
+String str="1.2..4...5..7...8";
+
+
+int doubleDot=0;
+int tripleDot=0;
+int dot=0;
+for(int i=0; i< str.length();i++){
+
+if(str.charAt(i)!="."){
+dot=0;
+}
+if(str.charAt(i)=="."){
+dot++;
+}
+
+
+
+}
+
+
+int[] arr= {1,0,0,1,1,0,1}
+
+for(int i=0; i<arr.length;i++){
+for(int j=i+1; j<arr.length;j++){
+  if(arr[i]>arr[j]){
+int temp= arr[i];
+arr[i]=arr[j];
+arr[j]=temp;
+}
+
+}
+
+Employee
+id name salary
+
+
+select Max(salary) from Employee where Salary < (select Max(salary) from Employee)
+
+Select e1.salary from employee e1 where salary <  
+

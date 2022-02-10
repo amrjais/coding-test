@@ -1,0 +1,43 @@
+String s1="amrendra";
+String s2="amrendra";
+String s3= new String("amrendra");
+String s4= new String("amrendra");
+String s5= "amre"+new String("ndra");
+s1==s2 --true
+s1==s3 --false
+s3==s4 false
+s1==s5 false
+s3==s5 false
+
+Map<String,String> map=new HashMap<>();
+map.put(s1,"1");
+map.put(s2,"2");
+map.put(s3,"3");
+map.put(s4,"4");
+map.put(s5,"5");
+
+String s1="entertainment";
+
+String s2="[{}]";
+
+String s3="{{]{{][{{"
+
+Select Max(Salary) from Employee where Salary < (Select Max(Salary) from Employee)
+
+Employye
+empid name managerId
+
+Select e1.name,e2.name from Employee e1, Employee e2 where e1.empid=e2.managerId 
+
+Spring boot 
+exception handling
+data base connection
+two db connection
+
+static synchronised block
+synchronised block
+custom query
+static method override
+class mutable
+
+

@@ -1,0 +1,43 @@
+@RestController
+CustomerServiceController
+
+@Service
+CustomerServiceImpl{
+
+@Auotowired
+CustomerServiceDao repo;
+
+public CustomerDetailBean postCustomer(CustomerDetailBean customerDetailBean ){
+
+repo.save(customer);
+return customerDetailBean ;
+}
+
+interface
+CustomerService
+
+@Repository
+CustomerServiceDao extends CrudRepository<Customer, long>
+
+@Entity
+Customer
+
+
+
+CutomerDetailBean
+
+@ControllerAdvice
+CustomerServiceException
+
+CustomerException
+junit Clases
+
+solid design
+volatine
+cascade anno jpa
+
+model
+elastic search
+elk
+
+

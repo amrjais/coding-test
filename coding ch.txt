@@ -1,0 +1,30 @@
+String str1="Great";
+String str2="West";
+Swap without using 3rd variable?
+o/p:str1=West, str2=Great;
+
+str1= str1+str2; "GreatWest"
+str2= str1.subString(0,(str1.length()-str2.length())-1);
+str1= str1.subString(str2.length(),str1.length());
+
+
+//int number1 = 502356997; first last
+Long number2 =345678234 sum to single digit=>6
+don't use String?
+345678234=>42=>6
+345=>12=>3
+
+
+public int add(int number){ 345
+
+int res=0;
+
+while(number>9){
+res+= number/10; 345/10= 3, 45/10=4
+number= number%10; 45
+}
+if(res>9){
+return add(res);
+}
+return res;
+}

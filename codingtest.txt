@@ -1,0 +1,64 @@
+String a= "Blume";
+String b= new String("Blume");
+
+HashMap<String,Integar> h=new hashMap<>();
+h.put("a",10)
+h.put("b",20)
+h.pu("c",10)
+h.put("d",20)
+
+a=null
+b=20
+c=10
+
+HashMap<String,Integar> manipulate(String K, int v, HashMap m){
+
+ foreach(EntrySet s: m){
+  int r= s.getValue();
+  if(r==v){
+  m.put(s.getKey,null)
+  }
+}
+return m;
+}
+
+List<String> list=new ArrayList<>();
+list.add("A");
+list.add("B");
+list.add("C");
+
+Stream<String> p= list.stream();
+Optional<String> findfirst = p.findFirst();
+Optional<String> findany= p.findAny();
+
+String str1="axy";
+String str2="adxcpy"
+
+int flag=0;
+
+Str[] arr1= str1.toarray();
+Str[] arr2= str2.toarray();
+for(int i=0; i<arr1.lenght; i++){
+ for(int j=0; j<arr2.lenght; j++){
+  if(arr1[i].equals(arr2[j])){
+   flag++;
+   break;
+}}
+if(arr1.length==flag){
+return true;
+}
+return false;
+
+
+Department
+ID name
+
+Employee
+id name depId Salary
+
+
+Select D.name, Max(E.Salary) from Employee E, Department D where E.depId=D.ID and E.salary <
+
+
+
+

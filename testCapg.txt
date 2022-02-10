@@ -1,0 +1,28 @@
+list of employee
+ employeename salary
+
+
+List<Employee> filteredList =list.stream().filter(e -> e.getSalary>10000).collector(Collectors.toList());
+
+filteredList.sort(e -> e.getSalary )
+
+int[] arr ={3,7,5,-1,1,8}
+sum =6
+
+
+for(int i=0;i<arr.lenght;i++){
+ for(int j=i+1;j<arr.lenght;j++){
+ if(arr[i]+arr[j]==sum){
+    System.out.println(arr[i]+" "+arr[j])
+}  
+}
+}
+
+
+mutable class
+
+class implenting two interface having same methods
+
+
+
+restTemplate.exchange(url,HttpMethod.Post, requestBody)

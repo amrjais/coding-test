@@ -1,0 +1,11 @@
+Write SQL query to find the number of customers in each country. Only include countries with more than 10000 customers.
+
+Table CUSTOMER
+Id
+FirstName
+LastName
+City
+Country
+Phone
+
+Select city, count(*) from customer where 100000<(Select count(*) from customer groupBy City)

@@ -1,0 +1,58 @@
+String str="ABA";
+
+for(int i=str.size()-1; i>=0;i--){
+ str+= str.charAt(i);
+}
+
+if(str.equals(temp)){
+System.out.println("String is pallindrome");
+}
+
+
+List<String> list= new ArrayList();
+list.add("Cat");
+list.add("Dog");
+list.add("Cat");
+list.add("Dog");
+list.add("Rabbit");
+list.add("Dog");
+
+Map<String,int> map= new HashMap<>();
+int count=1;
+for(String an: list){
+if(map.get(an)){
+map.put(an,map.getValue(an)+1);
+}else{
+map.put(an,count);
+}
+}
+
+map.st
+
+@FuntionalInterace
+public interface Addition{
+
+public void sum(int a, int b);
+
+}
+
+
+
+(2,3)->{
+
+}
+
+public class Demo{
+
+private static Demo demo;
+
+private Demo(){
+}
+
+public synchronised static Demo getDemo(){
+if(demo==null){
+demo= new Demo();
+}
+return demo;
+}
+}

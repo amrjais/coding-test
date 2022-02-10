@@ -1,0 +1,24 @@
+String str= "amrendra";
+
+
+
+
+Employee 
+adress
+zipcode
+
+
+list.stream().filter(e -> e.getAdress().getZipcode().equals("abc")).collect(Collectors.toList())
+
+executor service 
+
+put and patch
+
+how to use predicate or any functional interface.
+
+Rest security
+
+
+
+
+ 
